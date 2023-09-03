@@ -49,5 +49,5 @@ jobs:
           application_name: aws-v5-beanstalk # 엘리스틱 빈스톡 애플리케이션 이름!실패
           environment_name: Aws-v5-beanstalk-env # 엘리스틱 빈스톡 환경 이름!
           version_label: aws-v5-${{steps.current-time.outputs.formattedTime}}
-          region: ap-northeast-2
+          region: ap-northeast-1
           deployment_package: deploy/deploy.zip
